@@ -1,0 +1,27 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-crema text-marron font-dmsans antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply font-fraunces uppercase;
+}
+
+.section {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+section[id] {
+  scroll-margin-top: 90px;
+}
+
+button {
+  cursor: pointer;
+}
